@@ -1,0 +1,5 @@
+Some issues I ran across:
+1. Noticed that I wasn't using backtracking (aka recursion). 
+2. Once I had the recursive part down my next issue was a resulting matrix of Qs lined up from the upper left diagonal. So obviously something had to be wrong with my diagonal verification. 
+	- my mishap was setting the diagonal to always starts from (0,0) which means 		that my diagonal checking was not updating along with the actual row-column 		coordinates
+	- also, there was the need to check backwards (going from (1,1) to (0,0)) instead 	of forwards. 
