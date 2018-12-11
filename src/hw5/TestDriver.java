@@ -8,12 +8,14 @@ public class TestDriver {
 		Player min = new Player('O');
 		Board board = new Board(max, min);		
 		
-		board.setBoard(1, 0, max);
-		board.setBoard(2, 1, max);
-		board.setBoard(0, 2, max);
-		board.setBoard(0, 1, min);
-		board.setBoard(1, 1, min);
-		board.setBoard(1, 2, min);
+		System.out.println("Welcome to the game of Tic-Tac-Toe!");
+		Sysou
+//		board.setBoard(1, 0, max);
+//		board.setBoard(2, 1, max);
+//		board.setBoard(0, 2, max);
+//		board.setBoard(0, 1, min);
+//		board.setBoard(1, 1, min);
+//		board.setBoard(1, 2, min);
 
 		board.printBoard();
 		

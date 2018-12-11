@@ -1,9 +1,7 @@
 package hw5;
 
 public class Player {
-	private char player; 
-//	int score;  //increases based on Max; decreases based on Min
-	
+	private char player; 	
 
 	public Player(char value) {
 		this.player = value;
